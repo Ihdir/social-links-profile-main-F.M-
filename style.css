@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 600px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 150px; /* Ensure image size is consistent */
+    width: 100%; /* Responsive image size */
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.attribution {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 20px;
+}
